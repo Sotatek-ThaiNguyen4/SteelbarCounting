@@ -10,12 +10,12 @@ from PIL import Image
 
 from models import build_model
 
-CHECKPOINT_PATH = Path(r"C:\Users\User\Downloads\CrowdCounting-P2PNet\best_mae.pth")
-IMAGE_PATH = Path(r"C:\Users\User\Downloads\00000815429100048316.Image.235000-test.png")
-OUTPUT_IMAGE_PATH = Path(r"C:\Users\User\Downloads\CrowdCounting-P2PNet\inference_result.jpg")
-OUTPUT_JSON_PATH = Path(r"C:\Users\User\Downloads\CrowdCounting-P2PNet\inference_result.json")
+CHECKPOINT_PATH = Path(r"C:\Users\admin\Downloads\SteelbarCounting\best_mae.pth")
+IMAGE_PATH = Path(r"C:\Users\admin\Downloads\000007509087.5.Bundle Image.025529.jpg")
+OUTPUT_IMAGE_PATH = Path(r"C:\Users\admin\Downloads\SteelbarCounting\inference_result.jpg")
+OUTPUT_JSON_PATH = Path(r"C:\Users\admin\Downloads\SteelbarCounting\inference_result.json")
 
-BACKBONE = "vgg16_bn"
+BACKBONE = "resnet50"
 ROW = 2
 LINE = 2
 THRESHOLD = 0.3
